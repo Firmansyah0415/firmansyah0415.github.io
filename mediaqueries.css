@@ -1,0 +1,273 @@
+@media screen and (min-width: 1400px) {
+    aside .social-media ul {
+        display: none;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+
+    aside .social-media ul {
+        display: none;
+    }
+
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    header.navbar-container .hamburger-nav {
+        display: flex;
+        width: 100vw;
+        height: 5rem;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #dekstop-nav {
+        display: none;
+    }
+
+    #profile {
+        display: block;
+    }
+
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .social-media ul {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .profile-pic {
+        display: flex;
+        align-items: center;
+        width: 275px;
+        height: 275px;
+        border-radius: 999px;
+        margin-bottom: 3rem;
+    }
+
+    .about-container {
+        margin-top: 0;
+    }
+
+    .about-details-container p {
+        text-align: justify;
+    }
+
+    aside .social-media ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    section {
+        margin-right: 4.2rem;
+    }
+
+    /* Profile Section */
+    #profile {
+        height: 90vh;
+        margin-bottom: 0;
+        padding-top: 5rem;
+    }
+
+    .profile-pic {
+        display: flex;
+        align-items: center;
+        width: 275px;
+        height: 275px;
+        border-radius: 999px;
+        margin-bottom: 3rem;
+    }
+
+    .about-pic {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+    }
+
+    .section-text-p1 {
+        font-size: 1rem;
+    }
+
+    .section-text-p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        text-align: justify;
+    }
+
+    .section-text .social-media {
+        display: none;
+    }
+
+    /* Experience Section */
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    #experience .article-container {
+        justify-content: center;
+    }
+
+    /* Projects Section */
+    .project-img {
+        flex: 1;
+    }
+
+
+    /* Contact Section */
+    #contact {
+        height: 40vh;
+    }
+
+    .contact-info-upper-container {
+        gap: 1rem;
+        justify-content: space-evenly
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .contact-info-upper-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    /* Social Media Side Bar */
+    main aside {
+        position: fixed;
+        inset-block: 0;
+        inset-inline-end: 0;
+    }
+
+    main aside .social-media {
+        height: 100%;
+        display: flex;
+    }
+
+    main aside .social-media ul {
+        padding: 1.5rem 0.5rem;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        margin: auto;
+        background-color: #2d3e50;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    main aside .social-media ul a {
+        color: white;
+        font-size: 1.7rem;
+    }
+
+    /* Footer */
+
+    footer {
+        font-size: 1.2rem;
+        height: 40vh;
+        text-align: center;
+        padding-inline: 1.3rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+}
